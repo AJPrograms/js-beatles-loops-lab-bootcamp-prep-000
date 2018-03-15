@@ -1,17 +1,21 @@
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
-  for (var i = 0; i < musicians.length; i++) {
-    array.push(`${musicians[i]} plays ${instruments[i]}`);
+  for (var n = 0; n < musicians.length; n++) {
+    array.push(`${musicians[n]} plays ${instruments[n]}`);
   }
   return array;
 }
 
 function johnLennonFacts(facts) {
   var array = [];
-  var i = 0;
-  while (i < facts.length) {
-    array.push(`${facts[i]}!!!`)
-    i++
+  var n = 0;
+  while (n < facts.length) {
+    array.push(`${facts[n]}!!!`)
+    n++
   }
   return array;
+}
+
+function iLoveTheBeatles(n) {
+  
 }
